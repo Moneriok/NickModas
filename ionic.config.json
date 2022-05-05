@@ -1,0 +1,7 @@
+{
+  "name": "virtualModasApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
