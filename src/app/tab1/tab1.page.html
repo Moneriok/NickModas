@@ -1,17 +1,48 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Roupas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+  <ion-searchbar showCancelButton="focus" color="warning"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://th.bing.com/th/id/R.6533dc20707da07d9599bacbe8576d0a?rik=VvZVDj2MFScplg&pid=ImgRaw&r=0">
+    </ion-thumbnail>
+    <ion-label>Real Madrid</ion-label>
+    <ion-badge color="warning">R$249,99</ion-badge>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://static.netshoes.com.br/produtos/camisa-paris-saint-germain-home-1819-sn-torcedor-nike-masculina/08/D12-9848-008/D12-9848-008_zoom1.jpg">
+    </ion-thumbnail>
+    <ion-label>Psg</ion-label>
+    <ion-badge color="warning">R$209,99</ion-badge>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://fbsjerseys.com.br/wp-content/uploads/2020/08/Camisas-do-Manchester-City-2021-2022-PUMA-kit-1-1.jpg">
+    </ion-thumbnail>
+    <ion-label>Manchester City</ion-label>
+    <ion-badge color="warning">R$299,99</ion-badge>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://th.bing.com/th/id/OIP.VpevTLaaEjZlk8Gdu36EjwHaHa?pid=ImgDet&rs=1">
+    </ion-thumbnail>
+    <ion-label>Liverpool</ion-label>
+    <ion-badge color="warning">R$279,99</ion-badge>
+  </ion-item>
 </ion-content>
